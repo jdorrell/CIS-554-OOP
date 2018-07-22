@@ -1,5 +1,0 @@
-#include "convert.h"
-
-int Convert::getBase10(number, base){
-  return 5;
-};
