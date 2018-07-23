@@ -14,7 +14,8 @@ int main()
   std::cout << "Please enter a base : ";
   std::cin >> base;
 
-  Convert convertedNumber.getBase10(number, base);
+  Convert numberConverter(number, base);
 
-  std::cout << "The number in base 10 is " << convertedNumber;
+  std::cout << "The number in base 10 is " 
+  			<< numberConverter.getBase10();
 }

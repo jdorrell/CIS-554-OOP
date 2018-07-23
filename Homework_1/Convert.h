@@ -1,6 +1,9 @@
+
+
 class Convert
 {
  public :
-  getBase10(number, base);
+ 	explicit Convert(int number, int base);
+	int getBase10(number, base);
 };
 

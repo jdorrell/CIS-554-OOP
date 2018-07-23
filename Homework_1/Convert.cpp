@@ -1,14 +1,27 @@
-#include "convert.h"
+#include "Convert.h"
 using namespace std;
 
 class Convert
 {
 public:
-  int convertToBase10(number, base)
+  
+  Convert::Convert(int number, int base)
+  	:numberToConvert(number),
+  	originalBase(base)
+  {}
+	  
+  	
+  void Convert::setNumber(number)
   {
-    cout << "converted" << endl;
-    return 1;
+	int newNumber;//Private functions invoked here
+    return newUmber;
   }  
+  
+  int getBase10(number, base)
+  {
+	int newNumber;
+    return newUmber;
+  }
 }
   
 
