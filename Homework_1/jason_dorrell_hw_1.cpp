@@ -7,7 +7,6 @@ Jason Dorrell -- Homework #1
 
 int main()
 {
-
   int number = 0;
   int base;
   
