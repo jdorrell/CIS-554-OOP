@@ -1,0 +1,3 @@
+﻿SetTest.obj : error LNK2019: unresolved external symbol "public: __thiscall Set::Set(class std::vector<bool,class std::allocator<bool> > &)" (??0Set@@QAE@AAV?$vector@_NV?$allocator@_N@std@@@std@@@Z) referenced in function _main
+SetTest.obj : error LNK2019: unresolved external symbol "public: class Set __thiscall Set::Union(class Set &)" (?Union@Set@@QAE?AV1@AAV1@@Z) referenced in function _main
+C:\Users\Jason\Repo\CIS-554-OOP\Homework_5\jason_dorrell_CIS-554-OOP_hw_5\Debug\SetTest.exe : fatal error LNK1120: 2 unresolved externals
